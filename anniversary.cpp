@@ -23,8 +23,9 @@ int     daysAnniversary[66] = {50, 100, 300, 500, 1000, 1500, 2000, 2500, 3000, 
 #include "daysCounter.cpp"
 
 
+                           
 
-
+                               
 int main(int argc, char *argv[])
 {
     currentDateSetter();
@@ -35,6 +36,7 @@ int main(int argc, char *argv[])
         // Обрабатываем случай, когда argv[0] может быть пустым или не пустым
         if (argv[0])
             cout << "Usage: " << argv[0] << " <day> <month> <year>" << '\n';
+            cout << 
         else
             cout << "Usage: <program name> <day> <month> <year>" << '\n';
  
