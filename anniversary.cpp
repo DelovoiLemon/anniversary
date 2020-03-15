@@ -36,7 +36,6 @@ int main(int argc, char *argv[])
         // Обрабатываем случай, когда argv[0] может быть пустым или не пустым
         if (argv[0])
             cout << "Usage: " << argv[0] << " <day> <month> <year>" << '\n';
-            cout << 
         else
             cout << "Usage: <program name> <day> <month> <year>" << '\n';
  
@@ -75,3 +74,4 @@ int main(int argc, char *argv[])
     cout << "Следующий юбилей будет " << anniversaryDate[0] << ", " << month[anniversaryDate[1] - 1] << " " << anniversaryDate[2] << "." << endl;  
     return 0;
 }
+
